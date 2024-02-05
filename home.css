@@ -1,0 +1,179 @@
+body {
+
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header {
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #171c23;
+}
+
+.header-row {
+    margin: 0;
+    background-color: #171c23;
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+}
+
+.search-input {
+    width: 600px;
+    vertical-align: middle;
+    height: 40px;
+    border: none;
+    border-radius: 0;
+    padding: auto;
+}
+
+.navbar-item {
+
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+
+    display: flex;
+
+    align-items: center;
+
+
+
+}
+
+.font-small {
+    font-size: small;
+}
+
+
+
+.small-nav-row,
+.back-to-top {
+    background-color: #25303e;
+    color: #ffffff;
+    padding: 5px;
+}
+
+.small-nav-item {
+    padding: 5px;
+    display: inline-flex;
+}
+
+.nav-it {
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    color: #171c23;
+    align-items: center;
+    display: flex;
+}
+
+.recomendation-block {
+
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    flex-wrap: wrap;
+
+
+}
+
+.rm-block-h2 {
+    text-align: end;
+    margin-right: 60px;
+    margin-top: 60px;
+    color: aliceblue;
+}
+
+.left-block {
+    background-color: #2c406d;
+    width: 50%;
+
+}
+
+.right-block {
+    background-color: #E92869;
+    width: 50%;
+}
+
+.show-items {
+
+    margin-top: 0%;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: rgba(238, 238, 239, 0.8);
+
+    padding: 10px;
+
+}
+
+.image-item {
+    position: relative;
+    width: fit-content;
+    height: 300px;
+}
+
+details {
+    color: #198c22;
+}
+
+li a {
+    text-decoration: none;
+
+    text-align: center;
+    color: #ffffff;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+.footer-row {
+    background-color: #31445e;
+    padding: 20px;
+    color: aliceblue;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: medium;
+
+}
+
+.flex-fill {
+    width: 25%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.list-heading {
+    font-weight: bold;
+    font-size: large;
+}
+
+ul li {
+    padding: 4px;
+}
+
+.p-10 {
+    padding: 10px;
+    ;
+}
+
+.text-larg {
+    font-size: large;
+    font-weight: bold;
+}
